@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
+        <corners android:radius="50dp"
+            ></corners>
+
+=======
+
+        <corners android:radius="50dp"
+
+            ></corners>
+
+
+>>>>>>> 537790072f0e155286377703cdec8cca275f3de6
+</shape>

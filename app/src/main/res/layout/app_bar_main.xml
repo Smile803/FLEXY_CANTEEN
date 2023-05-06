@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
+=======
+    android:id="@+id/coordinator"
+>>>>>>> 537790072f0e155286377703cdec8cca275f3de6
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+<<<<<<< HEAD
+            android:background="?attr/colorPrimary"
+=======
+            android:background="@color/black"
+>>>>>>> 537790072f0e155286377703cdec8cca275f3de6
+            app:popupTheme="@style/Theme.MyApplication.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+<<<<<<< HEAD
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+=======
+        android:contentDescription="@string/fab"
+        app:srcCompat="@drawable/mycart" />
+>>>>>>> 537790072f0e155286377703cdec8cca275f3de6
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
